@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://danieldimitrow.de/",
   "license": "UNLICENSED",
-  "description": "Bewerbungscoaching",
+  "description": "Die offizielle Website von Daniel Dimitrow.",
   "author": "LOKKEE",
   "scripts": {
     "dev": "vite --open",
