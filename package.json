@@ -6,8 +6,8 @@
   "description": "Die offizielle Website von Daniel Dimitrow.",
   "author": "LOKKEE",
   "scripts": {
-    "dev": "vite --open",
-    "build": "tsc && vite build"
+    "dev": "vite --open --port 3200",
+    "build": "vite build --emptyOutDir"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

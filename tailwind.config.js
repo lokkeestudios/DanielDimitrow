@@ -1,8 +1,12 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
-  content: ["./src/**/*.{html, js, ts}"],
-  darkMode: "media",
+  content: ["./src/**/*.{html,js,ts}"],
   theme: {
     extend: {
+      fontFamily: {
+        body: ["'Montserrat', sans-serif", ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         brand: {
           DEFAULT: "#C4983C",
@@ -15,16 +19,10 @@ module.exports = {
           50: "#FFFEFA",
         },
       },
-      fontFamily: {
-        body: "'Montserrat', sans-serif",
-      },
       fontSize: {
         xxs: ["0.625rem", "1.1"],
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };
