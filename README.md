@@ -7,6 +7,6 @@
 <sup>Copyright &copy; 2022 Lokkee Studios All Rights Reserved. | </sup>
 <sup>Logo: Copyright &copy; 2022 Daniel Dimitrow All Rights Reserved.</sup>
 
-Die offizielle [Website](https://danieldimitrow.de) von Daniel Dimitrow.
+The official [site](https://danieldimitrow.lokkeestudios.com) of Daniel Dimitrow.
 
 _A project for a German job application coach._
